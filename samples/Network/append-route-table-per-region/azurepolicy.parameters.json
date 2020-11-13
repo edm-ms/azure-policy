@@ -4,17 +4,6 @@
 					"metadata": {
 						"description": "Custom object with region and Resource Id of the route table.",
 						"displayName": "Region and route table ID"						
-					},
-					"value": {
-						"eastus2": {
-							"id": "/subscriptions/yourSubscription/resourceGroups/yourResourceGroup/providers/Microsoft.Network/routeTables/aTable"
-						  },
-						  "centralus": {
-							"id": "/subscriptions/yourSubscription/resourceGroups/yourResourceGroup/providers/Microsoft.Network/routeTables/aTable"
-						  },
-						  "disabled": {
-							"id": ""
-						  }
 					}
 	}
 }
