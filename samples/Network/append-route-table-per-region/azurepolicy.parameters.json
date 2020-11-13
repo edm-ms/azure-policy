@@ -1,9 +1,14 @@
 {
 	"routeTable": {
 		"type": "Object",
-					"metadata": {
-						"description": "Custom object with region and Resource Id of the route table.",
-						"displayName": "Region and route table ID"						
-					}
+		"metadata": {
+			"description": "Custom object with region and Resource Id of the route table.",
+			"displayName": "Region and route table ID"						
+		},
+		"value": {
+			"disabled": {
+				"id": ""
+			}
+		}
 	}
 }
