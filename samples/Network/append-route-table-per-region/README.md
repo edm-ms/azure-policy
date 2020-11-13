@@ -13,7 +13,7 @@ This policy appends a regional route table for every subnet. The route table may
 
 ````powershell
 # Create the Policy Definition (Subscription scope)
-$definition = New-AzPolicyDefinition -Name 'append-route-table-per-region' -DisplayName 'Append route table on every subnet' -description 'This policy appends a specific Route Table on every subnet.' -Policy 'https://raw.githubusercontent.com/Azure/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.rules.json' -Parameter 'https://raw.githubusercontent.com/Azure/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.parameters.json' -Mode All
+$definition = New-AzPolicyDefinition -Name 'append-route-table-per-region' -DisplayName 'Append route table on every subnet' -description 'This policy appends a specific Route Table on every subnet.' -Policy 'https://raw.githubusercontent.com/edm-ms/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.rules.json' -Parameter 'https://raw.githubusercontent.com/edm-ms/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.parameters.json' -Mode All
 
 
 # Set the scope to a resource group; may also be a subscription or management group
