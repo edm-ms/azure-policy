@@ -9,17 +9,6 @@
 				"metadata": {
 				  "displayName": "Regions and route tables to append to subnets",
 				  "description": "JSON Object representing the Azure region and route table resource Id"
-				},
-				"defaultValue": {
-					"eastus2": {
-					  "id": "/subscriptions/yourSubscription/resourceGroups/yourResourceGroup/providers/Microsoft.Network/routeTables/aTable"
-					},
-					"centralus": {
-					  "id": "/subscriptions/yourSubscription/resourceGroups/yourResourceGroup/providers/Microsoft.Network/routeTables/aTable"
-					},
-					"disabled": {
-					  "id": ""
-					}
 				}
 			  }
 		},

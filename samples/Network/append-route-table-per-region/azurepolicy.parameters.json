@@ -5,8 +5,10 @@
 			"description": "Custom object with region and Resource Id of the route table.",
 			"displayName": "Region and route table ID"						
 		},
-		"disabled": {
-			"id": ""
+		"value": {
+			"disabled": {
+				"id": ""
+			}
 		}
 	}
 }
