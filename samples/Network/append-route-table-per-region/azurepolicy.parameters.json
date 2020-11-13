@@ -6,6 +6,9 @@
 			"displayName": "Region and route table ID"						
 		},
 		"value": {
+			"eastus": {
+				"id": ""
+			},
 			"disabled": {
 				"id": ""
 			}
