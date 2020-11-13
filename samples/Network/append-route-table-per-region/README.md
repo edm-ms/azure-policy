@@ -4,7 +4,7 @@ This policy appends a regional route table for every subnet. The route table may
 
 ## Try on Portal
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#blade/Microsoft_Azure_Policy/CreatePolicyDefinitionBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-policy%2Fmaster%2Fsamples%2FNetwork%2Fappend-route-table-per-region%2Fazurepolicy.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#blade/Microsoft_Azure_Policy/CreatePolicyDefinitionBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fedm-ms%2Fazure-policy%2Fmaster%2Fsamples%2FNetwork%2Fappend-route-table-per-region%2Fazurepolicy.json)
 
 [![Deploy to Azure Gov](https://docs.microsoft.com/azure/azure-policy/media/deploy/deployGovbutton.png)](https://portal.azure.us/?#blade/Microsoft_Azure_Policy/CreatePolicyDefinitionBlade/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-policy%2Fmaster%2Fsamples%2FNetwork%2Fappend-route-table-per-region%2Fazurepolicy.json)
 
@@ -13,7 +13,7 @@ This policy appends a regional route table for every subnet. The route table may
 
 ````powershell
 # Create the Policy Definition (Subscription scope)
-$definition = New-AzPolicyDefinition -Name 'append-route-table-per-region' -DisplayName 'Append route table on every subnet' -description 'This policy appends a specific Route Table on every subnet.' -Policy 'https://raw.githubusercontent.com/edm-ms/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.rules.json' -Parameter 'https://raw.githubusercontent.com/edm-ms/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.parameters.json' -Mode All
+$definition = New-AzPolicyDefinition -Name 'append-route-table-per-region' -DisplayName 'Append route table on every subnet' -description 'This policy appends a specific Route Table on every subnet.' -Policy 'https://raw.githubusercontent.com/Azure/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.rules.json' -Parameter 'https://raw.githubusercontent.com/Azure/azure-policy/master/samples/Network/append-route-table-per-region/azurepolicy.parameters.json' -Mode All
 
 
 # Set the scope to a resource group; may also be a subscription or management group
